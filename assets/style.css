@@ -90,6 +90,17 @@ body {
 	font-size: 14px;
 }
 
+.nav-link {
+	color: black; /* Couleur par défaut */
+	cursor: pointer;
+	transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+  
+  .nav-link.active {
+	color: white; /* Couleur du texte lorsqu'il est actif */
+	background-color: black; /* Couleur de fond lorsqu'il est actif */
+	border-radius: 5px;
+  }
 #gallery {
 	/*	min-height: 100vh; */
 }
@@ -102,7 +113,7 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #59ad56;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {

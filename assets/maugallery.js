@@ -206,25 +206,21 @@
       if ($(this).hasClass("active-tag")) {
         return;
       }
-      $(".active-tag").removeClass("active active-tag");
-      $(this).addClass("active-tag");
-
+      
+      $(".active-tag").removeClass("active active-tag"); // Retire les classes actives des autres éléments
+      $(this).addClass("active active-tag"); // Ajoute les classes actives au filtre sélectionné
+    
       var tag = $(this).data("images-toggle");
-
+    
       $(".gallery-item").each(function() {
-        $(this)
-          .parents(".item-column")
-          .hide();
+        $(this).parents(".item-column").hide();
         if (tag === "all") {
-          $(this)
-            .parents(".item-column")
-            .show(300);
+          $(this).parents(".item-column").show(300);
         } else if ($(this).data("gallery-tag") === tag) {
-          $(this)
-            .parents(".item-column")
-            .show(300);
+          $(this).parents(".item-column").show(300);
         }
       });
     }
+    
   };
 })(jQuery);
