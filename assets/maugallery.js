@@ -130,7 +130,7 @@
       $(`#${lightboxId}`).modal("toggle");
     },
 
-    //  Correction : Défilement des images en avant
+    // ✅ Correction : Défilement des images en avant
     nextImage(lightboxId) {
       let activeImage = $(".lightboxImage").attr("src");  
       let imagesCollection = [];
@@ -145,7 +145,7 @@
       $("#" + lightboxId).find(".lightboxImage").attr("src", imagesCollection[nextIndex]);
     },
 
-    //  Correction : Défilement des images en arrière
+    // ✅ Correction : Défilement des images en arrière
     prevImage(lightboxId) {
       let activeImage = $(".lightboxImage").attr("src");  
       let imagesCollection = [];
