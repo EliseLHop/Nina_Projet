@@ -203,7 +203,7 @@ body {
 
 #contact {
 	margin: auto;
-	background-color: #D8D3A8 ;
+	background-color: #d9d5b5 ;
 	position: relative;
 	padding-inline: 100px;
 	padding-block: 100px;
@@ -214,7 +214,7 @@ body {
 }
 .picture.right::before {
 	content: ' ';
-	background-color: #BEB45A;
+	background-color: #ffe98f;
 	width: 374px;
 	height: 329px;
 	position: absolute;
