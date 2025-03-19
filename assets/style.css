@@ -52,7 +52,7 @@ body {
 
 .picture.left::before {
 	content: ' ';
-	background-color: #f6b78b;
+	background-color: #daa077;
 	width: 374px;
 	height: 329px;
 	position: absolute;
