@@ -52,7 +52,7 @@ body {
 
 .picture.left::before {
 	content: ' ';
-	background-color: #E5975F;
+	background-color: #e47c32;
 	width: 374px;
 	height: 329px;
 	position: absolute;
@@ -113,7 +113,7 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #59ad56;
+	background-color: #1D5E38;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
